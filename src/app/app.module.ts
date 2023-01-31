@@ -12,12 +12,20 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatMenuModule} from '@angular/material/menu'; 
 import {MatIconModule} from '@angular/material/icon';
 import { AppRoutingModule } from './app-routing.module';
+import { HmComponent } from './hm/hm.component';
+import { TAAdminComponent } from './ta-admin/ta-admin.component';
+import { TAMemberComponent } from './ta-member/ta-member.component';
+import { PanelistComponent } from './panelist/panelist.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
-    HeaderComponent
+    HeaderComponent,
+    HmComponent,
+    TAAdminComponent,
+    TAMemberComponent,
+    PanelistComponent
   ],
   imports: [
     BrowserModule,

@@ -1,6 +1,7 @@
 .example-card {
     max-width: 500px;
     min-block-size: 350px;
+    cursor: pointer;
     
   }
 
