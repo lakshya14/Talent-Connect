@@ -1,0 +1,9 @@
+.navbar{
+    justify-content: left;
+}
+span{
+    padding-right: 1rem;
+}
+.name{
+    justify-content: start;
+}

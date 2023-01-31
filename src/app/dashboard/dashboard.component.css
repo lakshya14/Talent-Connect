@@ -1,0 +1,12 @@
+.example-card {
+    max-width: 500px;
+    min-block-size: 350px;
+    
+  }
+
+.header-pos{
+    justify-content:center;
+    /*background-color: rgb(30, 152, 227); */
+    padding-bottom: 1rem;
+    background-color: rgb(92, 79, 239);
+}   
