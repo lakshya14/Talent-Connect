@@ -8,9 +8,9 @@ import { Routes, RouterModule,Router } from '@angular/router';
 export class DashboardComponent {
   constructor(private router:Router){
   }
-  navigate(){
+  navigate(url:string){
   //do your any operations
-  this.router.navigate(['hm']);
+  this.router.navigate([url]);
   
   }
 }

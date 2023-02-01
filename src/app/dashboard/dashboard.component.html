@@ -1,5 +1,5 @@
 <div style="justify-content: space-around; display:flex;margin-top:120px; max-width: 100%;">
-<mat-card class="example-card" routerLink="admin">
+<mat-card class="example-card" (click)="navigate('admin')">
     <mat-card-header class="header-pos">
       <mat-card-title>Admin</mat-card-title>
       
@@ -12,7 +12,7 @@
   </mat-card>
   
 
-  <mat-card class="example-card" (click)="navigate()">
+  <mat-card class="example-card" (click)="navigate('hm')">
     <mat-card-header class="header-pos">
       <mat-card-title>Hiring Manager</mat-card-title>
       
@@ -24,7 +24,7 @@
    
   </mat-card>
 
-  <mat-card class="example-card" routerLink="panel">
+  <mat-card class="example-card" (click)="navigate('panel')">
     <mat-card-header class="header-pos">
       <mat-card-title>Panelist</mat-card-title>
       
@@ -36,7 +36,7 @@
     
   </mat-card>
 
-  <mat-card class="example-card" routerLink="member" >
+  <mat-card class="example-card" (click)="navigate('member')" >
     <mat-card-header class="header-pos">
       <mat-card-title>TA Member</mat-card-title>
       
