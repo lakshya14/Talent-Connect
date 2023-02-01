@@ -1,18 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
-import { HmComponent } from './hm/hm.component';
-import { TAMemberComponent } from './ta-member/ta-member.component';
-import { TAAdminComponent } from './ta-admin/ta-admin.component';
-import { PanelistComponent } from './panelist/panelist.component';
+import {  HmHomepageComponent } from './hiring-manager/hm-homepage/hm-homepage.component';
+import { TaAdminHomeComponent } from './ta-admin/ta-admin-home/ta-admin-home.component';
+import {   TaMemberHomeComponent} from './ta-member/ta-member-home/ta-member-home.component';
+import { PanelistHomeComponent } from './panelist/panelist-home/panelist-home.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 const routes: Routes = [
   { path: 'home', component: DashboardComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: 'hm', component: HmComponent },
-  { path: 'admin', component: TAAdminComponent },
-  { path: 'member', component: TAMemberComponent },
-  { path: 'panel', component: PanelistComponent }
+  { path: 'hm', component: HmHomepageComponent },
+  { path: 'admin', component:  TaAdminHomeComponent },
+  { path: 'member', component: TaMemberHomeComponent },
+  { path: 'panel', component: PanelistHomeComponent } 
 ];
 
 @NgModule({

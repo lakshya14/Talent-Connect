@@ -12,26 +12,25 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatMenuModule} from '@angular/material/menu'; 
 import {MatIconModule} from '@angular/material/icon';
 import { AppRoutingModule } from './app-routing.module';
-import { HmComponent } from './hm/hm.component';
-import { TAAdminComponent } from './ta-admin/ta-admin.component';
-import { TAMemberComponent } from './ta-member/ta-member.component';
-import { PanelistComponent } from './panelist/panelist.component';
+import {  HiringManagerModule } from './hiring-manager/hiring-manager.module';
+import { TAAdminModule } from './ta-admin/ta-admin.module';
+import {  TAMemberModule} from './ta-member/ta-member.module';
+import { PanelistModule } from './panelist/panelist.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
     HeaderComponent,
-    HmComponent,
-    TAAdminComponent,
-    TAMemberComponent,
-    PanelistComponent
+    
+    
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     MatCardModule,
-    MatToolbarModule,MatMenuModule,MatIconModule, AppRoutingModule
+    MatToolbarModule,MatMenuModule,MatIconModule, AppRoutingModule, TAAdminModule, PanelistModule,
+    HiringManagerModule,TAMemberModule
     
     
   ],

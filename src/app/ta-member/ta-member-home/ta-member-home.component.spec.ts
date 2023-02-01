@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TAMemberComponent } from './ta-member.component';
+import { TaMemberHomeComponent } from './ta-member-home.component';
 
-describe('TAMemberComponent', () => {
-  let component: TAMemberComponent;
-  let fixture: ComponentFixture<TAMemberComponent>;
+describe('TaMemberHomeComponent', () => {
+  let component: TaMemberHomeComponent;
+  let fixture: ComponentFixture<TaMemberHomeComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TAMemberComponent ]
+      declarations: [ TaMemberHomeComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(TAMemberComponent);
+    fixture = TestBed.createComponent(TaMemberHomeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
