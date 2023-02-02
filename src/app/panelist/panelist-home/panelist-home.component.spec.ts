@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PanelistComponent } from './panelist.component';
+import { PanelistHomeComponent } from './panelist-home.component';
 
-describe('PanelistComponent', () => {
-  let component: PanelistComponent;
-  let fixture: ComponentFixture<PanelistComponent>;
+describe('PanelistHomeComponent', () => {
+  let component: PanelistHomeComponent;
+  let fixture: ComponentFixture<PanelistHomeComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PanelistComponent ]
+      declarations: [ PanelistHomeComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(PanelistComponent);
+    fixture = TestBed.createComponent(PanelistHomeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
