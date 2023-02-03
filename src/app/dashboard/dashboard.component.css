@@ -4,6 +4,9 @@
     cursor: pointer;
     
   }
+.divClass{
+  justify-content: space-around; display:flex;margin-top:120px; max-width: 100%;
+}  
 
 .header-pos{
     justify-content:center;
