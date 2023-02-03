@@ -13,4 +13,22 @@ export class DashboardComponent {
   this.router.navigate([url]);
   
   }
+  cardImg: any[] = [
+    {
+      'name': 'Admin',
+      'img': '/assets/adminc.png'
+    },
+    {
+      'name': 'Hiring Manager',
+      'img': '/assets/hiring5.png'
+    },
+    {
+      'name': 'Panelist',
+      'img': '/assets/panelistc2.png'
+    },
+    {
+      'name': 'TA-Member',
+      'img': '/assets/tamember.png'
+    },
+  ];
 }

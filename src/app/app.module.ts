@@ -26,15 +26,13 @@ import { PanelistModule } from './panelist/panelist.module';
     DashboardComponent,
     HeaderComponent,
     
-    
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     MatCardModule,
     MatToolbarModule,MatMenuModule,MatIconModule, AppRoutingModule, TAAdminModule, PanelistModule,
-    HiringManagerModule,TAMemberModule
-    
+    HiringManagerModule,TAMemberModule 
     
   ],
   providers: [],
