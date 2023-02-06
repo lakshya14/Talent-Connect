@@ -15,9 +15,9 @@ export class DashboardComponent {
   }
   cardImg: any[] = [
     {
-      'name': 'Admin',
+      'name': 'TA-Admin',
       'img': '/assets/adminc.png',
-      'url': 'Admin'
+      'url': 'admin'
     },
     {
       'name': 'Hiring Manager',
