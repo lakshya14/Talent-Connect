@@ -13,13 +13,11 @@ export interface Requisition {
   title: string;
   resource: string;
 }
-
 @Component({
   selector: 'app-ta-admin-home',
   templateUrl: './ta-admin-home.component.html',
   styleUrls: ['./ta-admin-home.component.css']
 })
-
 export class TaAdminHomeComponent {
   displayedColumns: string[] = ['reqno', 'grade', 'hmemployeeid', 'hmemailid','jdurl','assignment','glcode','location','title','resource'];
 }
