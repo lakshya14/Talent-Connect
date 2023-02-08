@@ -11,10 +11,20 @@ const routes: Routes = [
   { path: 'home', component: DashboardComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'hm', component: HmHomepageComponent },
-  { path: 'admin', component:  TaAdminHomeComponent},
+  { path: 'admin',  children: [
+    {
+        path: 'resource',    
+        component: ResourceComponent,
+    },
+    {
+      path:'', 
+      component: TaAdminHomeComponent,
+    },
+  ]},
   { path: 'member', component: TaMemberHomeComponent },
   { path: 'panel', component: PanelistHomeComponent },
-  { path: 'admin/resource', component: ResourceComponent }
+  //{ path: 'admin/resource', component: ResourceComponent }
+  
 ];
 
 @NgModule({

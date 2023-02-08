@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Routes, RouterModule, Router } from '@angular/router';
 
 export interface Requisition {
   tamsid: string;
@@ -14,6 +15,7 @@ export interface Requisition {
   styleUrls: ['./resource.component.css']
 })
 export class ResourceComponent {
+  
   displayedColumns: string[] = ['tamsid', 'taemployeeid', 'taemailid', 'taname', 'action'];
 
 

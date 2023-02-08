@@ -22,10 +22,5 @@ export interface Requisition {
 })
 export class TaAdminHomeComponent {
 
-  constructor(private router: Router) {
-  }
-  navigate(url: string) {
-    this.router.navigate([url]);
-  }
   displayedColumns: string[] = ['reqno', 'grade', 'hmemployeeid', 'hmemailid', 'jdurl', 'assignment', 'glcode', 'location', 'title', 'resource'];
 }
