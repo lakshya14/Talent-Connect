@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Routes, RouterModule, Router } from '@angular/router';
+
 
 export interface Requisition {
   reqno: number;
@@ -19,5 +21,6 @@ export interface Requisition {
   styleUrls: ['./ta-admin-home.component.css']
 })
 export class TaAdminHomeComponent {
-  displayedColumns: string[] = ['reqno', 'grade', 'hmemployeeid', 'hmemailid','jdurl','assignment','glcode','location','title','resource'];
+
+  displayedColumns: string[] = ['reqno', 'grade', 'hmemployeeid', 'hmemailid', 'jdurl', 'assignment', 'glcode', 'location', 'title', 'resource'];
 }
